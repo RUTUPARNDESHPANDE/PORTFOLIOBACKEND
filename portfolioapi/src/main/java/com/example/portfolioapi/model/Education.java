@@ -3,7 +3,7 @@ package com.example.portfolioapi.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "Education")
+@Document(collection = "education")
 public class Education {
 
     @Id

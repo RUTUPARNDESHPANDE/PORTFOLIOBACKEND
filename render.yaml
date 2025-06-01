@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: portfolio-backend
+    env: java
+    rootDir: portfolio_api/portfolioapi/API-TEST-1
+    buildCommand: ./mvnw clean package
+    startCommand: java -jar target/*.jar
+    plan: free
+    autoDeploy: true

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/contacts")
-@CrossOrigin(origins = "*") // Allow frontend calls from any domain
+@CrossOrigin(origins = "*")
 public class ContactController {
 
     @Autowired
